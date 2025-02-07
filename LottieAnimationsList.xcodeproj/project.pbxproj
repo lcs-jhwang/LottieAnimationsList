@@ -13,6 +13,9 @@
 		31CA3FD22D567398009AF82C /* LottieAnimationsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA3FCD2D567398009AF82C /* LottieAnimationsListApp.swift */; };
 		31CA3FD72D5674B5009AF82C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 31CA3FD62D5674B5009AF82C /* Lottie */; };
 		31CA3FD92D567680009AF82C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA3FD82D567680009AF82C /* LottieView.swift */; };
+		31CA3FDC2D5679B3009AF82C /* Animation - 1738948844100.json in Resources */ = {isa = PBXBuildFile; fileRef = 31CA3FDB2D5679B3009AF82C /* Animation - 1738948844100.json */; };
+		31CA3FDE2D5679F2009AF82C /* Animation - 1738949187570.json in Resources */ = {isa = PBXBuildFile; fileRef = 31CA3FDD2D5679F2009AF82C /* Animation - 1738949187570.json */; };
+		31CA3FE02D567A32009AF82C /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CA3FDF2D567A27009AF82C /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		31CA3FCC2D567398009AF82C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31CA3FCD2D567398009AF82C /* LottieAnimationsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsListApp.swift; sourceTree = "<group>"; };
 		31CA3FD82D567680009AF82C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		31CA3FDB2D5679B3009AF82C /* Animation - 1738948844100.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1738948844100.json"; sourceTree = "<group>"; };
+		31CA3FDD2D5679F2009AF82C /* Animation - 1738949187570.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1738949187570.json"; sourceTree = "<group>"; };
+		31CA3FDF2D567A27009AF82C /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		31CA3FCE2D567398009AF82C /* LottieAnimationsList */ = {
 			isa = PBXGroup;
 			children = (
+				31CA3FDA2D5678B2009AF82C /* Animations */,
 				31CA3FD42D5673A8009AF82C /* Views */,
 				31CA3FD32D5673A0009AF82C /* Model */,
 				31CA3FCA2D567398009AF82C /* Preview Content */,
@@ -75,6 +82,7 @@
 		31CA3FD32D5673A0009AF82C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				31CA3FDF2D567A27009AF82C /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -86,6 +94,15 @@
 				31CA3FD82D567680009AF82C /* LottieView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		31CA3FDA2D5678B2009AF82C /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				31CA3FDB2D5679B3009AF82C /* Animation - 1738948844100.json */,
+				31CA3FDD2D5679F2009AF82C /* Animation - 1738949187570.json */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,7 +170,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CA3FDE2D5679F2009AF82C /* Animation - 1738949187570.json in Resources */,
 				31CA3FCF2D567398009AF82C /* Preview Assets.xcassets in Resources */,
+				31CA3FDC2D5679B3009AF82C /* Animation - 1738948844100.json in Resources */,
 				31CA3FD02D567398009AF82C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -165,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CA3FE02D567A32009AF82C /* FavouriteAnimation.swift in Sources */,
 				31CA3FD12D567398009AF82C /* AnimationsListView.swift in Sources */,
 				31CA3FD22D567398009AF82C /* LottieAnimationsListApp.swift in Sources */,
 				31CA3FD92D567680009AF82C /* LottieView.swift in Sources */,
