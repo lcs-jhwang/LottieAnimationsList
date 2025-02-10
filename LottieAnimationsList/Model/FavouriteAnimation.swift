@@ -16,7 +16,7 @@ struct FavouriteAnimation: Identifiable {
 }
 
 let favourites = [
-    FavouriteAnimation(filename: Animation - 1738948844100, description: "Gaming Controller")
+    FavouriteAnimation(filename: "Animation - 1738948844100", description: "Gaming Controller")
     ,
-    FavouriteAnimation(filename: Animation - 1738949187570, description: "Loading")
+    FavouriteAnimation(filename: "Animation - 1738949187570", description: "Loading")
 ]
